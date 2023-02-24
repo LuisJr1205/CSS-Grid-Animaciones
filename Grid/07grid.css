@@ -1,0 +1,9 @@
+.grid{
+    display: grid;
+    grid-gap: 20px;
+    /* Auto fill va a rellenar las filas con todas los elementos que puead */
+    /* Auto fit no rellena la fila pero la adapta al dispositivo  responsive design*/
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+
+
+}
